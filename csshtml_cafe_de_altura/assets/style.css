@@ -1,0 +1,83 @@
+.nav1 {
+    background-color:black;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    text-align:center;
+    align-items: center;
+    align-content: center;
+    height: 64px;
+    
+}
+.firsttext {
+    margin: 0.2cm;
+}
+
+
+.tel {
+    display: flex;
+    align-items: center;
+    margin: -2cm;
+}
+
+.but {
+    width: 3cm;
+    height:1cm ;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0.7cm;
+}
+
+a {
+    color: white;
+}
+a:link { text-decoration: none; }
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: -2.5cm;
+    }
+
+.cafe2 {
+    display: flex;
+    margin: 1cm;
+    align-items: center;
+}
+.descubrir {
+    background-color:black;
+    color: white;
+    width: 3.5cm;
+    height:1cm;
+    border-radius: 8px;
+    margin: 0.2cm;
+}
+.cafebutt {
+    background-color: #2A5B45;
+    color: white;
+    width: 3cm;
+    height:1cm;
+    border-radius: 8px;
+}
+input[type=button]{
+    border:none;
+}
+.cafe2_1 {
+    margin-right: 3cm;
+}
+ .tel2 {
+    margin: 0.3cm;
+ }
+ .novedades {
+    display: flex;
+    color: #46715E;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    gap: 18px;
+}
+
+
+ 
