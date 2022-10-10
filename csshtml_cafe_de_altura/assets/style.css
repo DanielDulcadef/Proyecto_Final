@@ -11,6 +11,7 @@
 }
 .firsttext {
     margin: 0.2cm;
+    font-family: 'Outfit', sans-serif;
 }
 
 
@@ -45,6 +46,9 @@ a:link { text-decoration: none; }
     margin: 1cm;
     align-items: center;
 }
+.letter1 {
+    font-size: 12px;
+}
 .descubrir {
     background-color:black;
     color: white;
@@ -76,8 +80,60 @@ input[type=button]{
 }
 .nav {
     display: flex;
-    gap: 18px;
+    gap: 19px;
 }
 
+.ver {
+    display: flex;
+}
+#cafe_novedades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   
+}
+.novedades {
+    text-shadow: 0.1em 0.1em 0.2em #333;
+    padding: 1%;
+    
+    
+}
 
+.sacos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    justify-content: center;
+   
+    }
+.minisaco {
+    border-style: groove;
+    border-radius: 4%;
+    padding: 2%;
+   
+    
+    
+}
+
+.addbutton {
+    background-color: #2A5B45B2;
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+   
+}
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+.data {
+    background-color: gray;
+
+}
  
